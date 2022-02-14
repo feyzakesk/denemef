@@ -1,0 +1,84 @@
+<h1>Listeler</h1>
+<!--
+    Sıralı listeler -> 1, 2, 3, ordered list ? ->ol
+    Sıralı olmayanlisteler -> *,*,* unordered list ? -ul
+-->
+<ol type="I"> 
+    <li>Liste ögesi 1</li>
+    <li>Liste ögesi 2</li>
+    <li>Diğer Özellikler:
+        <ul>
+            <li>Liste ögesi 1</li>
+            <li>Liste ögesi 2</li>
+            <li>Liste ögesi 3</li>  
+        </ul>
+    </li>
+</ol>
+
+<!--
+    !+tab ->hazır html yapısı verir.
+    etiket isimlerini direkt verebiliyoruz.
+    + kardes oge
+    > icinde oge
+    ^ yukarı cık ve oge olustur.
+    * carp -> p*3
+    lorem ???
+    . -> class  ->h3.deneme>lorem1 class oluşturur.
+    # -> id     ->h3#idolussun>lorem1
+-->
+<!--
+    h1+h2 +TAB tuşu
+    h1+p+p+h2+p+p+p+p+TAB tuşu  -> h1+p*2+h2+p*4
+
+    ul>li*5 (içinde ögesi ul nin içinde 5 tane li)
+    ul>li*3^p*2+h3
+-->
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+<p></p>
+<p></p>
+<h3></h3>
+
+<!-- 
+    Lorem Nedir?
+    p>lorem -> cok uzun yazı oluşturur.
+    p>lorem4 -> 4 kelimelik lorem oluştur.
+    ul>li*3>lorem1^^p*2>lorem4^h3>lorem1
+-->
+<p>Lorem ipsum dolor sit.</p>
+<ul>
+    <li>Lorem.</li>
+    <li>Consectetur!</li>
+    <li>Pariatur?</li>
+</ul>
+<p>Lorem ipsum dolor sit.</p>
+<p>Aliquam magni dolorem aut!</p>
+<h3>Lorem.</h3> 
+
+ul>li.tepki
+ul>.tepki*3   <!--li nin içinde tepki adında class oluşturur-->
+
+<h1>Görsellerle çalışmak</h1>
+<!-- img  src:kaynak yani görselimizin nerede olduğunu belirtir.
+alt:görsel açılmadığında bize bilgi verir ya da arama motorlarında 
+-->
+<img src="https://assets.ubuntu.com/v1/e1d3143f-laptop.png" alt="Ubuntu Görseli">
+<img width="200" src="images/lorem1.jpg" alt="Manzara" title="deniz" >
+
+<h1>Linkler</h1>
+<!--
+    -Başka bir sayfaya git
+    -Sayfa içinde bir yere git ->ID sayfasına git <a href="#id"> </a>
+    -mail at
+    -telefon et
+    href=""
+-->
+<a href="https://www.kodluyoruz.org/" target="_blank">
+    kodluyoruz sayfasına gidilecek
+</a>
+<a href="iletisim.html">İletisim Sayfasına Git</a>
+<a href="mailto:info@kodluyoruz.org">Kodluyoruza mail  at .</a>
+<a href="tel:05445229401"
